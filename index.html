@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Football Match</title>
+</head>
+
+<body>
+    <section>
+        <div class="image">
+            <img id="campNou" src="https://essemtec.com/fileadmin/user_upload/news/2017/newsletter1/camp-nau.jpg"
+                alt="Football field">
+            <p>Football Match Scoreboard</p>
+        </div>
+        <div class="content">
+            <h1><span id="one"></span> - <span id="two"></span></h1>
+            <p>Playing till
+                <select name="goals" id="counter">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select> goals
+            </p>
+        </div>
+        <div class="buttons">
+            <button id="barca">FC Barcelona <img
+                    src="https://seeklogo.com/images/F/fc-barcelona-logo-F792100A4F-seeklogo.com.png" alt=""></button>
+            <button id="losBlancos">Real Madrid CF <img
+                    src="https://cdn.freebiesupply.com/logos/large/2x/real-madrid-c-f-logo-black-and-white.png"
+                    alt=""></button>
+            <button id="sim">Simulate</button>
+            <button id="rematch">Rematch <img
+                    src="https://static.vecteezy.com/system/resources/thumbnails/000/632/147/small/illust58-3108.jpg"
+                    alt=""></button>
+        </div>
+    </section>
+    <div id="chants">
+        <h3>Chants</h3><input type="text" id="text"><input type="color" name="color" id="color">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

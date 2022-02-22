@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    background-color: black;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    border: solid 2px aquamarine;
+    width: 600px;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#campNou{
+    width: 600px;
+}
+.image{
+    border-bottom: solid 2px aquamarine;
+    color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image img{
+    height: 300px;
+    width: 550px;
+    margin: 0;
+}
+.image p{
+    margin: 0;
+    font-size: 15px;
+    border-top: none;
+    padding-bottom: 2px;
+}
+.content{
+    padding-left: 15px;
+}
+.content p{
+    color: aquamarine;
+}
+select{
+    background-color: black;
+    color: aquamarine;
+    border: 3px solid aquamarine;
+    border-radius: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.buttons{
+    display: flex;
+}
+button{
+    display: flex;
+    padding: 12px 6px;
+    justify-content: center;
+    width: 33.3%;
+    margin:0;
+    border: solid 1px;
+    border-radius: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+#barca{
+    border: solid 1px aquamarine;
+    background-color: black;
+    color: aquamarine;
+    transition: all 0.3s; 
+} #barca:focus{
+    border-color: rgb(233, 41, 41);
+    color: rgb(233, 41, 41);
+}
+#barca img{
+    height: 17px;
+    width: 17px;
+    margin-left: 5px;
+}
+#losBlancos{
+    border: solid 1px aquamarine;
+    background-color: black;
+    color: aquamarine;
+} #losBlancos:focus{
+    border-color: rgb(22, 104, 180);
+    color: rgb(22, 104, 180);
+}
+#losBlancos img{
+    height: 18px;
+    width: 18px;
+    margin-left: 5px;
+}
+#rematch{
+    border-color: aquamarine;
+    background-color: aquamarine;
+}
+#rematch img{
+    height: 25px;
+    width: 25px;
+    margin-left: 4px;
+}
+#sim{
+    background-color: aquamarine;
+    border-color: aquamarine;
+    border-right-color: black;
+} #sim:active{
+    background-color: black;
+    color: aquamarine;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: aquamarine;
+    margin-bottom: 0;
+}
+
+#chants{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+}
+#color{
+    height: 22px;
+}
